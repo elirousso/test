@@ -1,3 +1,4 @@
+// Pricing card component
 export function PricingCard({ plan, price, trend }: { plan: string; price: number; trend: number }) {
   return (
     <div style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '28px', padding: '11px', boxShadow: '0 0 40px rgba(118,75,162,0.8)' }}>
